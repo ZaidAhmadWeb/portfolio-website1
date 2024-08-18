@@ -1,34 +1,83 @@
 *{
-    margin: 0px;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.wholeweb {
+  background-color: #1f2937;
 }
 
-.header{
-    padding: 5px;
-    background-color: rgb(133, 100, 100);
-    display: flex;
-    justify-content: space-between;
+#upperpart {
+  margin-left: 15%;
+  margin-right: 15%;
+  /* background-color: yellow; */
 }
 
-#logo{
-    color: white;
-    
+.header {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
 }
 
-#navegations{
-    width: 50%;
-    margin-right: 50px;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    align-items: center;
+#logo {
+  color: white;
+  font-weight: 800;
 }
 
-#navegations a{
-    text-decoration: none;
-    color: white;
+#navegations {
+  width: 50%;
+  color: white;
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  align-items: center;
 }
+
+#navegations a {
+  margin-left: 40px;
+  text-decoration: none;
+  color: white;
+}
+
+#upcontent{
+  margin: 50px 0px 50px 0px;
+  display: flex;
+  justify-content: space-between;
+
+  color: white;
+
+}
+
+.textcontent{
+  display: flex;
+  flex-direction: column;
+}
+
+.textcontent h1{
+  font-weight: 800;
+
+}
+
+.textitem{
+  margin-bottom: 10px;
+}
+
+
+.button{
+  width: fit-content;
+  padding: 4px 20px 4px 20px;
+  background-color: #3882f6;
+  border-radius: 9px;
+  border: none;
+  color: white;
+}
+
+
+.information{
+  background-color: white;
+}
+
+
 
