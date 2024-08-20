@@ -144,7 +144,48 @@
   margin-right: 20px;
 }
 
+.calltoaction{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: white;
+}
 
+.actioncont{
+  background-color: #3882f6;
+  color: white;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-radius: 10px;
+  padding: 20px 40px 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.actioncont h3{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.fotter{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+
+.actioncont p{
+  font-size: 10px;
+  color: rgb(187, 203, 216);
+}
+
+.buttonB{
+  width: fit-content;
+  padding: 4px 20px 4px 20px;
+  background-color: #3882f6;
+  border: 2px solid white;
+  border-radius: 9px;
+  color: white;
+}
 
 
 
